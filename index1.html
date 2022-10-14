@@ -35,23 +35,35 @@
         <form action="#">
           <h5>Street Name</h5>
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" id="street-name">
-            <label class="mdl-textfield__label" for="street-name">Street Name</label>
+            <input class="mdl-textfield__input" type="text" id="street-name" />
+            <label class="mdl-textfield__label" for="street-name"
+              >Street Name</label
+            >
           </div>
         </form>
         <form action="#">
           <h5>Street Number</h5>
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="street-number">
-            <label class="mdl-textfield__label" for="street-number">Street Number</label>
+            <input
+              class="mdl-textfield__input"
+              type="text"
+              pattern="-?[0-9]*(\.[0-9]+)?"
+              id="street-number"
+            />
+            <label class="mdl-textfield__label" for="street-number"
+              >Street Number</label
+            >
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
         </form>
-        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="submit()">
+        <button
+          class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+          onclick="submit()"
+        >
           Submit
         </button>
-        <br>
-        <br>
+        <br />
+        <br />
         <div id="street">
           <div id="info"></div>
         </div>
